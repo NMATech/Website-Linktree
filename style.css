@@ -1,0 +1,60 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.outside_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #999;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url("../image/bg_landscape.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mybox {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.link_box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 8px;
+}
+
+.link_box button {
+  background-color: #333;
+  border: none;
+  padding: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  transition: 300ms ease-in-out;
+}
+
+.link_box button:hover {
+  background-color: #ff1100;
+}
